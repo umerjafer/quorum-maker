@@ -16,7 +16,9 @@ Synechron's Quorum Maker has a two-step user process;
 ![Screenshot](https://github.com/synechron-finlabs/quorum-maker/blob/development/img/screenshot_dev.png) 
 
 Run `./setup.sh` to start the configuration wizard. The script will ask a series of questions to guide through the node configuration.
-
+(Note: If you face any problems for docker engine then please refer to the following link:
+https://techoverflow.net/2017/03/01/solving-docker-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket/
+)
 > Note: Please use bash script variable naming conventions to name the project and nodes. E.g. avoid names that start with digits or use hyphens `-` to separate words.
 
  1. **Docker-Compose Support**
